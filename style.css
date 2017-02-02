@@ -12,8 +12,13 @@ p{
   font-family: Helvetica, Arial, sans-serif;
 }
 
+h1 {
+		color: #FFFFFF;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
 body {
-  background: linear-gradient(to top, #ff0066 54%, #ff3399 100%);
+  background: linear-gradient(to bottom, #ff0000 0%, #cc0000 100%);
 }
 
 
@@ -25,4 +30,11 @@ body {
 #nav {
     padding: 0;
 	list-style-type: none;
+}
+
+#nav li {
+    margin: 0;
+    padding: 0;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
 }
