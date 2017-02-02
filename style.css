@@ -8,11 +8,12 @@ p {
 }*/
 
 p{
+  color: #666666;
   font-family: Georgia, "Times New Roman", serif;
 }
 
 body {
-  background-color: #ebe3c3;
+  background: linear-gradient(to top, #ff0066 54%, #ff3399 100%);
 }
 
 
