@@ -9,6 +9,7 @@ p {
 
 p{
   color: #FFFFFF;
+  font-style: bold;
   font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -41,8 +42,8 @@ body {
 
 #nav a:link, a:visited {
 	display:block;
-    color: #ff0000;
-    background-color: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #cc0000;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -51,5 +52,25 @@ body {
 }
 
 #nav a:hover, a:active {
-    background-color: #7a991a;
+    background-color: #ff0000;
+}
+
+.caption {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 0.5em;
+    margin-top: 0;
+    text-align: right;
+}
+
+#footer {
+    color: black;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 0.5em;
+    border-top: .5px solid black;
+}
+
+img {
+	border: none;
 }
