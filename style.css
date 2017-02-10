@@ -63,7 +63,11 @@ body{
     background-color: #666666;
 }
 
-
+#nav2 li {
+    list-style-type: none;
+    float: left;
+    color: #666666;
+}
 
 .caption {
     color: #262626;
