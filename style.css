@@ -63,29 +63,7 @@ body{
     background-color: #666666;
 }
 
-#nav2 li {
-    list-style-type: none;
-    float: left;
-    color: #666666;
-    margin: 0;
-    text-align:left;
-    padding: 0;
-}
 
-#nav2 a:link, a:visited {
-	display:block;
-    color: #ffffff;
-    background-color: #cccccc;
-    font-weight: bold;
-    text-align:center;
-    text-decoration: none;
-    padding: 4px;
-    font-family: Helvetica, Arial, sans-serif;
-}
-
-#nav2 a:hover, a:active {
-    background-color: #666666;
-}
 
 .caption {
     color: #262626;
