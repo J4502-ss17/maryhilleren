@@ -72,6 +72,13 @@ body{
     padding: 0;
 }
 
+#nav2 a:link, a:visited {
+    color: #262626;
+    text-align:left;
+    text-decoration: none;
+    padding: 4px;
+    font-family: Helvetica, Arial, sans-serif;
+}
 
 .caption {
     color: #262626;
