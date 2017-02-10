@@ -39,7 +39,6 @@ body{
 }
 
 
-
 #nav li {
     list-style-type: none;
     float: left;
@@ -52,7 +51,7 @@ body{
 #nav a:link, a:visited {
 	display:block;
     color: #ffffff;
-    background-color: #262626;
+    background-color: #cccccc;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
