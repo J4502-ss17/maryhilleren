@@ -7,7 +7,7 @@ p {
   color: blue;
 }*/
 p {
-  color:#666666;
+  color:#FFF;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -19,7 +19,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
-    color:#262626;
+    color:#FFF;
 }
 
 h1 {
@@ -31,7 +31,7 @@ h2 {
 }
 
 body{
-	background-color:#FFFFFF;
+	background-color:#262626;
 }
 
 
@@ -68,7 +68,7 @@ body{
 
 
 .caption {
-    color: #262626;
+    color: #FFF;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 1em;
@@ -78,7 +78,7 @@ body{
 
 #footer {
     color: white;
-    background-color: #262626;
+    background-color: #FFF;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1em;
     border-top: 2px solid white;
