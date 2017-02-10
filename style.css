@@ -76,9 +76,6 @@ body{
 	text-decoration: none;
 }
 
-#nav2 a:link, a:visited {
-	display:block;
-  }
 
 .caption {
     color: #262626;
