@@ -68,8 +68,10 @@ body{
     float: left;
     color: #666666;
     margin: 0;
+    text-align:left;
     padding: 0;
 }
+
 
 .caption {
     color: #262626;
