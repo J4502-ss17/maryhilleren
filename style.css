@@ -29,7 +29,7 @@ h2 {
 }
 
 body{
-	background-color:#white;
+	background-color:#FFF;
 }
 
 
@@ -54,7 +54,7 @@ body{
 #nav a:link, a:visited {
 	display:block;
     color: #FFF;
-    background-color: #ffffff;
+    background-color: #262626;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -85,7 +85,7 @@ body{
   }
 
 .caption {
-    color: 262626;
+    color: #262626;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 1em;
