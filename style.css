@@ -30,7 +30,6 @@ h2 {
 
 body{
 	background-color:#FFF;
-  color:#000
 }
 
 
@@ -64,16 +63,6 @@ body{
     background-color: #666666;
 }
 
-#nav2 li {
-    list-style-type: none;
-    color: #666666;
-    float: left;
-    margin: 0;
-    padding: 0;
-}
-
-#nav2 a:link, a:visited {
-  color: #262626
 
 .caption {
     color: #262626;
