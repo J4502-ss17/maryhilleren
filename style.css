@@ -72,7 +72,7 @@ body{
     padding: 0;
 }
 
-#nav2 a:link, a:visited {
+#nav2 a:link, {
     color: #262626;
     text-align:left;
     text-decoration: none;
