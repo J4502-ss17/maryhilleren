@@ -79,6 +79,11 @@ body{
 	text-decoration: none;
 }
 
+#nav2 a:link, a:visited {
+	display:block;
+    color: #262626;
+  }
+
 .caption {
     color: 262626;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
