@@ -52,11 +52,11 @@ body{
 #nav a:link, a:visited {
 	display:block;
     color: #ffffff;
-    background-color: #595959;
+    background-color: #262626;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
-    padding: 4px;
+    padding: 0px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
