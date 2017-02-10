@@ -1,11 +1,7 @@
-/*styles go here*/
-
-/*p {
-  color: red;
+html {
+	font-size: 100%
 }
-p {
-  color: blue;
-}*/
+
 p {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
@@ -32,29 +28,28 @@ body{
 	background-color:#ebe3ce;
 }
 
-
-
-#containter {
-  width: 90%;
-  margin: 0 auto;
+#container{
+    width: 95%;
+    background-color: #ffffff;
+    margin: 0 auto;
 }
 
 #nav {
     padding: 0;
-	list-style-type: none;
 }
 
 #nav li {
+    list-style-type: none;
+    float: left;
     margin: 0;
     padding: 0;
-	border-bottom: 1px solid #ccc;
-	text-decoration: none;
+    width: 25%;
 }
 
 #nav a:link, a:visited {
 	display:block;
-    color: #FFFFFF;
-    background-color: #cc0000;
+    color: #ffffff;
+    background-color: #98bf21;
     font-weight: bold;
     text-align:center;
     text-decoration: none;
@@ -63,37 +58,21 @@ body{
 }
 
 #nav a:hover, a:active {
-    background-color: #ff0000;
-}
-
-#nav2 {
-    padding: 0;
-	list-style-type: none;
-}
-
-#nav2 li {
-    margin: 0;
-    padding: 0;
-	border-bottom: 1px solid #ccc;
-	text-decoration: none;
+    background-color: #7a991a;
 }
 
 .caption {
-    color: white;
-    font-family: Georgia, "Times New Roman", serif;
+    color: black;
+    font-family: "Merriweather", Georgia, "Times New Roman", serif;
     font-style: italic;
-    font-size: 1em;
+    font-size: 0.8em;
     margin-top: 0;
-    text-align: center;
+    text-align: right;
 }
 
 #footer {
-    color: white;
+    color: black;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: 1em;
-    border-top: 2px solid white;
-}
-
-img {
-	border: none;
+    font-size: 0.8em;
+    border-top: 1px solid black;
 }
