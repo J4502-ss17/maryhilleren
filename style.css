@@ -79,8 +79,8 @@ body{
 }
 
 .caption {
-    color: white;
-    font-family: Georgia, "Times New Roman", serif;
+    color: 262626;
+    font-family: "Merriweather", Georgia, "Times New Roman", serif;
     font-style: italic;
     font-size: 1em;
     margin-top: 0;
