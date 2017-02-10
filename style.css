@@ -7,7 +7,7 @@ p {
   color: blue;
 }*/
 p {
-  color:#FFF;
+  color:#666666;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
@@ -19,7 +19,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: "Merriweather Sans", Helvetica, Arial, sans-serif;
-    color:#FFF;
+    color:#262626;
 }
 
 h1 {
@@ -32,7 +32,7 @@ h2 {
 
 body{
 	background-color:#333333;
-  color:#262626;
+  color:#FFFFFF;
 }
 
 
