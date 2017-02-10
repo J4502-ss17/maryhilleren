@@ -62,7 +62,8 @@ body{
 #nav a:hover, a:active {
     background-color: #666666;
 }
-#nav2 {
+
+#nav2 li {
     padding: 0;
 	list-style-type: none;
 }
