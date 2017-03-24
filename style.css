@@ -106,17 +106,60 @@ header, article, aside, footer {
   float: left;
   padding-right: 10 px;
 }
-  .navigation {
-        flex-flow: row wrap;
-        justify-content: flex-end;
-    }
+.navigation {
+    flex-flow: row wrap;
+    justify-content: flex-end;
+}
 
-    .navigation a {
-        border: none;
-    }
+.navigation a {
+    border: none;
+}
 
-    .navigation a:hover {
-    	background: black;
-    }
+.navigation a:hover {
+  background: black;
+}
 
+aside {
+    flex: 1 auto;
+}
+
+article {
+flex: 3 0px;
+}
+
+.aside-1 {
+    order: 2;
+}
+
+article {
+    order: 1;
+}
+
+.aside-2 {
+    order: 3;
+}
+
+footer {
+    order: 4;
+}
+
+article {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+
+.image {
+    width: 45%;
+    margin-right: 10px;
+}
+
+.story {
+    width: 45%;
+}
+
+.first {
+    margin-top: 0;
+}
 }
