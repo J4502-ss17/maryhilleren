@@ -101,9 +101,7 @@ header, article, aside, footer {
 .image {
 	border: none;
   width: 30%;
-  margin-right: 10 px;
   float: left;
-  padding-right: 10 px;
 }
 .navigation {
     flex-flow: row wrap;
