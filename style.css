@@ -193,20 +193,20 @@ article {
 }
 */
 @media screen and (min-width: 600px){
-  #pageBody {
+  .pageBody {
     display: flex;
     flex-flow: row;
 }
-    #content {
+    .aside {
       flex: 3 auto;
       margin-right: 20px;
     }
 
-    #sidebar {
+    .aside-1 {
       flex: 1 auto;
     }
 
-    #nav li {
+    .navigation li {
       border-right: none;
     }
 }
@@ -217,7 +217,7 @@ article {
     flex-flow: row;
   }
 
-  #nav ul{
+  .navigation ul{
     display: flex;
     flex-flow: column;
     margin-right: 20px;
