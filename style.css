@@ -11,6 +11,8 @@ p {
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
 	font-size: 1rem;
 	line-height: 1.5rem;
+  width: 95%;
+	margin: 0.8em auto;
 }
 
 .italic {
@@ -159,4 +161,66 @@ article {
 .first {
     margin-top: 0;
 }
+}
+/* this is from class monday
+@media screen and (min-width: 480px) {
+  p{
+    width: 90%;
+    margin: 1em auto;
+  }
+  .mug {
+  	width: 40%;
+  	float: left;
+  	margin-right:
+  }
+}
+
+  @media screen and (min-width: 800px) {
+    p {
+    	width: 80%;
+    	margin: 1.5em auto;
+}
+}
+*/
+/*
+@media screen and (min-width: 1000px){
+	p{
+		width: 80%;
+		max-width: 60em;
+		margin: 1.5em auto;
+	}
+
+}
+*/
+@media screen and (min-width: 600px){
+  #pageBody {
+    display: flex;
+    flex-flow: row;
+}
+    #content {
+      flex: 3 auto;
+      margin-right: 20px;
+    }
+
+    #sidebar {
+      flex: 1 auto;
+    }
+
+    #nav li {
+      border-right: none;
+    }
+}
+@media screen and (min-width: 1000px){
+
+  .wrapper {
+    display: flex;
+    flex-flow: row;
+  }
+
+  #nav ul{
+    display: flex;
+    flex-flow: column;
+    margin-right: 20px;
+  }
+
 }
