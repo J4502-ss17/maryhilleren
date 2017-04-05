@@ -99,9 +99,6 @@ header, article, aside, footer {
   padding: 10px;
 }
 
-.image, .caption {
-  display: none;
-}
 
 @media (min-width:800px) {
 .image {
@@ -200,9 +197,6 @@ article {
 
 @media screen and (min-width: 600px){
 
-  .image, .caption {
-      display: block;
-    }
 
   .pageBody {
     display: flex;
@@ -260,4 +254,9 @@ article {
       order: 2;
       margin: 10px;
     }
+
+    .image, .caption {
+      display: none;
+    }
+
 }
