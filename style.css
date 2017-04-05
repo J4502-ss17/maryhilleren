@@ -67,11 +67,6 @@ body{
   border-bottom: none;
 }
 
-
-
-
-
-
 .caption {
     color: #FFF;
     font-family: "Merriweather", Georgia, "Times New Roman", serif;
@@ -81,9 +76,9 @@ body{
     text-align: center;
 }
 
-#footer {
+.footer {
     color: white;
-    background-color: #262;
+    background-color: red;
     font-family: Georgia, "Times New Roman", serif;
     font-size: 1em;
     border-top: 2px solid white;
@@ -94,10 +89,15 @@ body{
     flex-flow: row wrap;
 }
 
+
 header, article, aside, footer {
   flex: 1 100%;
   padding: 10px;
 }
+
+#footer{
+    order:4;
+  }
 
 
 @media (min-width:800px) {
@@ -105,7 +105,7 @@ header, article, aside, footer {
 	/*border: none;
   width: 30%;
   float: left; */
-  display: nones
+  display: none;
 }
 .navigation {
     flex-flow: row wrap;
@@ -138,11 +138,13 @@ article {
 
 .aside-2 {
     order: 3;
+    background-color: red;
 }
 
-footer {
-    order: 4;
+.footer {
+  order: 4;
 }
+
 
 article {
     display: flex;
@@ -212,15 +214,26 @@ article {
       flex: 1 auto;
     }
 
+    .footer {
+      order: 4;
+    }
+
     .navigation li {
       border-right: none;
     }
+
 }
 @media screen and (min-width: 1000px){
-
+/*
+  p{
+  		width: 80%;
+  		max-width: 60em;
+  		margin: 1.5em auto;
+  	}
+*/
   .wrapper {
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
   }
 
   .navigation ul{
@@ -256,8 +269,19 @@ article {
       margin: 10px;
     }
 
+    .footer {
+      order: 4;
+    }
+
     .image, .caption {
       display: none;
     }
+
+    header p{
+		width: 70%;
+		max-width: 60em;
+		margin: 1.5em auto;
+	}
+
 
 }
