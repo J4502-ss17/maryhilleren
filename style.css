@@ -102,11 +102,11 @@ header, article, aside, footer {
 
 @media (min-width:800px) {
 .image {
-	/*border: none;
+	border: none;
   width: 30%;
-  float: left; */
-  display: none;
+  float: left;
 }
+
 .navigation {
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -243,7 +243,7 @@ article {
   }
 
   aside {
-      background-color: #ADD8E6
+      background-color: #ADD8E6;
       padding: 10px
     }
 
