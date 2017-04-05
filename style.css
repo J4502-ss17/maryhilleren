@@ -238,24 +238,24 @@ article {
       padding: 10px
     }
 
-  #nav li {
+  .navigation li {
       border-bottom: 1px solid rgba(255,255,255,0.5);
     }
-    #nav li:last-child {
+    .navigation li:last-child {
       border-bottom: none;
     }
 
-    #content {
+    .aside-2 {
       order: 1;
       margin: 10px;
     }
 
-    #sidebar {
+    .aside-1 {
       order: 3;
       margin: 10px;
     }
 
-    #nav {
+    .navigation {
       order: 2;
       margin: 10px;
     }
