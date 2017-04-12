@@ -165,6 +165,20 @@ article {
 .first {
     margin-top: 0;
 }
+.navigation {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+}
+
+header h1 {
+    order: 2;
+    font-size: 2em;
+}
+
+nav ul {
+    display: none;
+}
 }
 /* this is from class monday
 @media screen and (min-width: 480px) {
